@@ -35,6 +35,11 @@ function App() {
           <span>Completed</span>
           <span className="visually-hidden"> tasks</span>
         </button>
+        <button type="button" className="btn toggle-btn" aria-pressed="false">
+          <span className="visually-hidden">Show </span>
+          <span>active</span>
+          <span className="visually-hidden"> tasks</span>
+        </button>
       </div>
       <h2 id="list-heading">
         3 tasks remaining
@@ -62,7 +67,7 @@ function App() {
         </li>
         <li className="todo-stack-small">
           <div className="c-cb">
-            <input id="todo-0" type="checkbox" defaultChecked={true} />
+            <input id="todo-1" type="checkbox" defaultChecked={true} />
             <label className="todo-label" htmlFor="todo-1">
               Sleep
             </label>
@@ -78,7 +83,7 @@ function App() {
         </li>
         <li className="todo-stack-small">
           <div className="c-cb">
-            <input id="todo-0" type="checkbox" defaultChecked={true} />
+            <input id="todo-2" type="checkbox" defaultChecked={true} />
             <label className="todo-label" htmlFor="todo-2">
               Repeat
             </label>
