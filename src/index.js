@@ -11,9 +11,9 @@ const DATA = [
 ];
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App tasks={DATA}/>
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App tasks={DATA}/>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
