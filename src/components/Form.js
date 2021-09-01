@@ -38,7 +38,7 @@ function Form(props) {
  // eslint-disable-next-line 
   function handleSubmit(e) {
     e.preventDefault();
-    alert('WTF is this???');
+    props.addTask("Hello I'm addTask");
   }
   return(
     <form onSubmit={handleSubmit}>
